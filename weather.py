@@ -16,9 +16,9 @@ def get_current_weather(city='Bangalore City'):
 
 
 if __name__ == "__main__":
-     print('\n*** Get Current Weather Conditions ***\n')
+     print('\n *** Get Current Weather Conditions ***\n')
 
-city = input("\nPlease Enter a city name: ")
+     city = input("\n Please Enter a city name: ")
 
 if not bool(city.strip()):
     city = "Chennai"
