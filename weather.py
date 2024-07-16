@@ -20,10 +20,10 @@ if __name__ == "__main__":
 
      city = input("\n Please Enter a city name: ")
 
-if not bool(city.strip()):
-    city = "Chennai"
+     if not bool(city.strip()):
+         city = "Chennai"
 
-weather_data = get_current_weather(city)
+     weather_data = get_current_weather(city)
 
-print("\n")
-pprint(weather_data)
+     print("\n")
+     pprint(weather_data)
